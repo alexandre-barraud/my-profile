@@ -1,0 +1,74 @@
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #EFD5B2;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Card Styles */
+.card-white {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-white h1, .card-white h2 {
+  font-family: 'Lora', serif;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.card-white p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.img-circle {
+  display: block;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+
+/* Button Styles */
+.btn-blue {
+  display: inline-block;
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-blue:hover {
+  background-color: #2980b9;
+}
+
+/* Social Media Icons */
+.list-inline {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.list-inline li a {
+  color: #3498db;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.list-inline li a:hover {
+  color: #2980b9;
+}
